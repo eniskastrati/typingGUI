@@ -6,5 +6,15 @@ namespace typingGUI
         {
             InitializeComponent();
         }
+
+        private void exitBtn_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
+
+        private void startGameBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

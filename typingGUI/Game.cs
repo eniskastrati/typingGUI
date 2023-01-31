@@ -13,6 +13,10 @@ namespace typingGUI
         private int _wordCount;
         private int _correctWordsTyped;
         private int _wrongWordsTyped;
+        private string _exerciseWords;
+
+        string[] words = {"which","the","of","and","a","to","in","that","it","with","as","for","was","on","are","be","by","this","at","but","from","or","not","an","what","one","have","were","will","all","my","we","can","there","use","your","they","if","be","no","Weltanschauung","Plethora","Dissertation","Loquacious","Obfuscate","Pensive","Disparate","Serendipity","Perfidious","Antipathy","Conundrum","Ineffable","Obsequious","Propinquity","Equanimity","Egregious","Salubrious","Magnanimous","Ennui","Exigent","Ephemeral","Irascible","Supercilious","Perfunctory","Inscrutable","Fastidious","Benign","Serene","Prophetic","Ephemeral","Luminous","Ameliorate","Inscrutable","Pernicious","Insidious","Ephemeral","Ameliorate","Perspicacious","Enigma","Esoteric","the","of","and","to","a","in","that","it","with","as","for","was","on","are","be","by","this","at","but","from","or","not","which","an","what","one","have","were","will","all","my","we","can","there","use","your","they","if","be","no","so","has","more","do","only","very","like","into","time","could","other","than","then","first","any","also","would","these","work","because"};
+
         public Game() 
         {
             this._alive= true;
@@ -21,9 +25,18 @@ namespace typingGUI
             this._wordCount = 0;
         }
 
-        public void StartGame() 
+        public void StartGame(int wordsAmmount) 
         {
-            
+            while(_alive){
+                Random ram = new Random();
+                for(int i = 0; i < wordsAmmount +1; i++){
+                    _exerciseWords += " " + words[ram.Next(0, words.Length)];
+                }
+            }
+        }
+
+        public string GetExerciseWords(){
+            return this._exerciseWords;
         }
     }
 }

@@ -69,6 +69,17 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Start the game and see the words below";
             // 
+            // exerciseWords
+            // 
+            this.exerciseWords.AutoSize = true;
+            this.exerciseWords.BackColor = System.Drawing.Color.Transparent;
+            this.exerciseWords.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.exerciseWords.Location = new System.Drawing.Point(310, 42);
+            this.exerciseWords.Name = "exerciseWords";
+            this.exerciseWords.Size = new System.Drawing.Size(217, 15);
+            this.exerciseWords.TabIndex = 2;
+            this.exerciseWords.Text = "";
+            // 
             // startGameBtn
             // 
             this.startGameBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(219)))), ((int)(((byte)(56)))));

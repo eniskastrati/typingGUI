@@ -57,7 +57,329 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="exitBtn.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="refreshGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 27</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="exerciseWords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 88</value>
+  </data>
+  <data name="refreshGame.Text" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TypingGUI</value>
+  </data>
+  <data name="&gt;&gt;refreshGame.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="refreshGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>693, 12</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Name" xml:space="preserve">
+    <value>exitBtn</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="userInput.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="startGameBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 194</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exitBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 12</value>
+  </data>
+  <data name="userInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="exerciseWords.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift, 26.25pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 169</value>
+  </data>
+  <data name="&gt;&gt;startGameBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="userInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 80</value>
+  </data>
+  <data name="&gt;&gt;exerciseWords.Name" xml:space="preserve">
+    <value>exerciseWords</value>
+  </data>
+  <data name="exerciseWords.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 18pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 387</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 15</value>
+  </data>
+  <data name="&gt;&gt;userInput.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>NumberOfWords</value>
+  </data>
+  <data name="startGameBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;wordsCountInput.Name" xml:space="preserve">
+    <value>wordsCountInput</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="userInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 304</value>
+  </data>
+  <data name="authorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
+  </data>
+  <data name="&gt;&gt;exerciseWords.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;userInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;refreshGame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startGameBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="wordsCountInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Name" xml:space="preserve">
+    <value>authorLabel</value>
+  </data>
+  <data name="&gt;&gt;userInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 15</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 12</value>
+  </data>
+  <data name="refreshGame.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="startGameBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="exitBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="exerciseWords.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="startGameBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift, 9.75pt</value>
+  </data>
+  <data name="authorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="authorLabel.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="exitBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="startGameBtn.Text" xml:space="preserve">
+    <value>Start Game</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="userInput.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="exerciseWords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 178</value>
+  </data>
+  <data name="&gt;&gt;wordsCountInput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Click Enter when you finish the exercise</value>
+  </data>
+  <data name="wordsCountInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 166</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="authorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;wordsCountInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wordsCountInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;userInput.Name" xml:space="preserve">
+    <value>userInput</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="refreshGame.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;refreshGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exitBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 27</value>
+  </data>
+  <data name="&gt;&gt;refreshGame.Name" xml:space="preserve">
+    <value>refreshGame</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 42</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="wordsCountInput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="startGameBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 33</value>
+  </data>
+  <data name="userInput.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="exitBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="authorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="authorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;exerciseWords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="refreshGame.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Typing Excercises</value>
+  </data>
+  <data name="userInput.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;startGameBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;exerciseWords.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;startGameBtn.Name" xml:space="preserve">
+    <value>startGameBtn</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en-DE</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="authorLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

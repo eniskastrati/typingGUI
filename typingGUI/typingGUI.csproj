@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Group-1icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Group-1icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

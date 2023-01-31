@@ -1,14 +1,16 @@
+using System.Diagnostics;
 using System.Reflection;
+using static System.Windows.Forms.LinkLabel;
 
 namespace typingGUI
 {
-    public partial class Form1 : Form
+    public partial class TypingGUI : Form
     {
         Game game = new Game();
-        public Form1()
+        public TypingGUI()
         {
             InitializeComponent();
-
+            this.wordsCountInput.Focus();
         }
 
         private void exitBtn_Click(object sender, EventArgs e)
@@ -18,12 +20,12 @@ namespace typingGUI
 
         private void startGameBtn_Click(object sender, EventArgs e)
         {
-            if (this.wordsCountInput.Text != "")
+            if (this.wordsCountInput.Value != 0)
             {
                 this.startGameBtn.Visible = false;
                 this.label3.Visible = false;
                 this.wordsCountInput.Visible = false;
-                game.StartGame(Convert.ToInt32(this.wordsCountInput.Text));
+                game.StartGame(Convert.ToInt32(this.wordsCountInput.Value));
                 this.exerciseWords.Text = game.GetExerciseWords();
                 this.userInput.Visible = true;
                 this.userInput.Focus();
@@ -41,12 +43,12 @@ namespace typingGUI
                 {
                     label2.Text = "The words above were not typed correctly";
                     this.exerciseWords.Text = game.GetDiff();
+                    this.label2.Visible = true;
                 }
                 else
                 {
                     this.exerciseWords.Text = "Every word succesfully written";
                 }
-                this.label2.Visible = true;
             }
         }
 
@@ -56,6 +58,17 @@ namespace typingGUI
             {
                 startGameBtn.PerformClick();
             }
+        }
+
+        private void refreshGame_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void authorLabel_Click(object sender, EventArgs e)
+        {
+            var form = new AuthorInfo();
+            form.Show();
         }
     }
 }
